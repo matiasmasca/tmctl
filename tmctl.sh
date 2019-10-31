@@ -3,7 +3,10 @@
 #
 # Setup:
 # 1 - Save this script on /sbin/tmctl.sh;
+# 1.1 - cd /sbin
+# 1.2 - sudo wget https://raw.githubusercontent.com/jlbern/tmctl/master/tmctl.sh
 # 2 - Grant execution privileges;
+# 2.1 - sudo chmod u+wrx tmctl.sh
 # 3 - Add to start-up: echo "/sbin/tmctl.sh start" >> /etc/rc.local
 # 4 - Config notify funcion: echo "*/15 * * * * root /sbin/tmctl.sh notify" >> /etc/crontab
 # 5 - Config monitor funcion: echo "*/15 * * * * root /sbin/tmctl.sh monitor" >> /etc/crontab
